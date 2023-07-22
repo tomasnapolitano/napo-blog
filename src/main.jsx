@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Index from './components/Index/Index.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import MusicPage from './components/MusicPage/MusicPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -14,9 +15,13 @@ const router = createBrowserRouter([
         element: <Index/>,
       },
       {
-        path: "boludez",
-        element: <div>boludez</div>,
-      }
+        path: "music",
+        element: <MusicPage/>,
+      },
+      {
+        path: "magia",
+        element: <div>magia</div>,
+      },
     ]
   },
 ]);

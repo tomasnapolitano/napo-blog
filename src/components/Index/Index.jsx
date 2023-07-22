@@ -4,7 +4,7 @@ const Index = () => {
 
     return(
         <>
-            <h1>GILADA!</h1>
+            <h1>bienvenido a mi blog personal.</h1>
         </>
     )
 }
