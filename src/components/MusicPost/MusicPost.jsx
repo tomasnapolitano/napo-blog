@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react"
 import styles from "./MusicPost.module.css"
+import { Link } from "react-router-dom"
 
 
 // la idea sería renderizar cards por cada canción/tema subido. Mostraría:
@@ -17,13 +18,14 @@ const MusicPost = (props) => {
 
     return(
         <div className={styles.musicPostContainer}>
-            <h3>{props.id}</h3>
-            <h2>{props.title}</h2>
-            <h2>{props.duration}</h2>
-            <h2>{props.genre}</h2>
-            <h2>{props.imageUrl}</h2>
-            
-            <button onClick={playPause}>play</button>
+            {/* <h3>{props.id}</h3> */}
+            <div className={styles.songTitle}><h2 style={{}}>{props.title}</h2></div>
+            {/* <h2>{props.duration}</h2>
+            <h2>{props.genre}</h2> */}
+            <Link onClick={playPause}>
+                <img src={props.imageUrl} style={{height: 200}}/>
+            </Link>
+            {/* <button onClick={playPause}>play</button> */}
         </div>
     )
 }

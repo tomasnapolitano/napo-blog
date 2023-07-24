@@ -25,6 +25,7 @@ const MusicPage = () => {
         <audio src={currentSong} ref={audioSong}/>
         {mockMusicData.data.map((post) => (
             <MusicPost
+                key={post.id}
                 id={post.id}
                 audioUrl={post.attributes.audioUrl}
                 title={post.attributes.title}

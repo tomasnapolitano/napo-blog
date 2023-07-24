@@ -7,7 +7,7 @@ export default {
                 "title": "sample 1",
                 "duration": 1.56,
                 "genre": "ni idea",
-                "imageUrl": "sampleUrl",
+                "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTErLpaXrH2TctCDSyc3vqPMtybpTwUxE5epikJruCFEMvf1w2kkuR_y8W0ep40qw2ByRo&usqp=CAU",
             }
         },
         {
@@ -17,7 +17,7 @@ export default {
                 "title": "palabra",
                 "duration": 3.12,
                 "genre": "lofi",
-                "imageUrl": "sampleUrl2",
+                "imageUrl": "https://i1.sndcdn.com/artworks-MjmcuzMqO4wB6GO9-3XvM0w-t500x500.jpg",
             }
         },
         {
@@ -27,7 +27,7 @@ export default {
                 "title": "giuseppe",
                 "duration": 0.26,
                 "genre": "ni idea 3",
-                "imageUrl": "sampleUrl3",
+                "imageUrl": "https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg",
             }
         }
     ]

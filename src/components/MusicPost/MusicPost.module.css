@@ -1,3 +1,7 @@
 .musicPostContainer{
     background-color: aquamarine;
+    
+    .musicTitle{
+        background-color: rgb(255, 0, 0);
+    }
 }
