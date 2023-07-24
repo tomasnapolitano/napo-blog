@@ -11,6 +11,7 @@ import { Link } from "react-router-dom"
 // 
 const MusicPost = (props) => {
 
+    
     const playPause = () =>{
         props.setcurrentSong(props.audioUrl)
         props.setisPlaying(!props.isPlaying);
@@ -22,12 +23,13 @@ const MusicPost = (props) => {
             <div className={styles.songTitle}><h2 style={{}}>{props.title}</h2></div>
             {/* <h2>{props.duration}</h2>
             <h2>{props.genre}</h2> */}
-            <Link onClick={playPause}>
+            <Link onClick={playPause} onMouseOver={handleMouseOver}>
                 <img src={props.imageUrl} style={{height: 200}}/>
             </Link>
             
         </div>
     )
 }
+
 
 export default MusicPost;
