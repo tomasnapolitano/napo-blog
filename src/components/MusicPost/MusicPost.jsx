@@ -25,7 +25,7 @@ const MusicPost = (props) => {
             <Link onClick={playPause}>
                 <img src={props.imageUrl} style={{height: 200}}/>
             </Link>
-            {/* <button onClick={playPause}>play</button> */}
+            
         </div>
     )
 }
